@@ -8,7 +8,6 @@ const App = () => {
   return (
     // Agregamos className="min-h-screen" justo al lado de tu data-theme
     <div data-theme="coffee" className="min-h-screen">
-      <button className="btn btn-primary">click me</button>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePage />} />
